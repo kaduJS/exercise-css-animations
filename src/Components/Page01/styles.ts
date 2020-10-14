@@ -31,16 +31,27 @@ export const Button = styled.div`
   a {
     position: inherit;
 
-    padding-top: 5px;
+    padding: 5px;
+    padding-top: 10px;
 
-    width: 50px;
-    height: 80px;
+    width: 75px;
+    height: 95px;
 
     border-top-right-radius: 8px;
     border-bottom-right-radius: 8px;
 
-    background-color: orange;
+    border: 5px solid var(--palette02-bg-color02);
+    background-color: transparent;
+
+    h4 {
+      margin-left: 2px;
+      color: var(--palette02-bg-color02);
+    }
+    svg {
+      color: var(--palette02-bg-color02);
+    }
   }
+
   z-index: 10;
 `;
 

@@ -41,6 +41,14 @@ export const Container = styled.section`
     animation: fade-out 1s;
   }
 
+  @media (max-width: 650px) {
+    margin-top: 50px;
+  }
+
+  @media (max-width: 524px) {
+    margin-top: 85px;
+  }
+
   @keyframes fade-out {
     0% {
       opacity: 0;
